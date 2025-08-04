@@ -1,0 +1,66 @@
+import { Vehicle, MaintenanceAlert } from "@shared/fleet";
+
+export const mockVehicles: Vehicle[] = [
+  {
+    id: "1",
+    busNumber: "BUS-001",
+    status: "pass",
+    lastInspectionDate: "2024-01-15",
+    odometerReading: 45200,
+    model: "Transit Connect",
+    year: 2022,
+    hasDefects: false,
+  },
+  {
+    id: "2",
+    busNumber: "BUS-002",
+    status: "fail",
+    lastInspectionDate: "2024-01-14",
+    odometerReading: 52800,
+    model: "Transit Van",
+    year: 2021,
+    hasDefects: true,
+  },
+  {
+    id: "3",
+    busNumber: "BUS-003",
+    status: "pass",
+    lastInspectionDate: "2024-01-16",
+    odometerReading: 38900,
+    model: "Transit Connect",
+    year: 2023,
+    hasDefects: false,
+  },
+  {
+    id: "4",
+    busNumber: "BUS-004",
+    status: "pending",
+    lastInspectionDate: "2024-01-10",
+    odometerReading: 61200,
+    model: "Transit Van",
+    year: 2020,
+    hasDefects: false,
+  },
+  {
+    id: "5",
+    busNumber: "BUS-005",
+    status: "fail",
+    lastInspectionDate: "2024-01-13",
+    odometerReading: 47600,
+    model: "Transit Connect",
+    year: 2022,
+    hasDefects: true,
+  },
+  {
+    id: "6",
+    busNumber: "BUS-006",
+    status: "pass",
+    lastInspectionDate: "2024-01-17",
+    odometerReading: 33400,
+    model: "Transit Van",
+    year: 2023,
+    hasDefects: false,
+  },
+];
+
+export const mockMaintenanceAlerts: MaintenanceAlert[] = [];
